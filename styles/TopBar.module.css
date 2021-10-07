@@ -1,0 +1,15 @@
+.topbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto 0 auto;
+}
+.icon {
+  font-size: 30px;
+}
+.icon a {
+  color: #154360;
+  margin-left: 15px;
+}
