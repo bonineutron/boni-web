@@ -7,16 +7,28 @@ function Topbar() {
     <div className={styles.topbar}>
       <h1>ANDRES BONILLA</h1>
       <div className={styles.icon}>
-        <a href="https://github.com/BoniNeutron" target="_blank">
+        <a
+          href="https://github.com/BoniNeutron"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiGithub />
         </a>
-        <a href="https://gitlab.com/BoniNeutron" target="_blank">
+        <a
+          href="https://gitlab.com/BoniNeutron"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiGitlab />
         </a>
-        <a href="https://www.instagram.com/bonineutron" target="_blank">
+        <a
+          href="https://www.instagram.com/bonineutron"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiInstagram />
         </a>
-        <a href="">
+        <a>
           <FiMenu />
         </a>
       </div>
