@@ -1,6 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import Head from "next/head";
 import PageExperience from "../components/PageExperience";
+import PageProfile from "../components/PageProfile";
 import Topbar from "../components/Topbar";
 import styles from "../styles/Main.module.css";
 
@@ -21,10 +22,19 @@ export default function Home() {
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
+                <PageProfile
+                  moveSection={() => fullpageApi.moveSectionDown()}
+                  btnLabel="Preciona para bajar"
+                  title="TITULO 1"
+                  pImg="/profile-picture.JPG"
+                />
+              </div>
+              <div className="section">
                 <PageExperience
                   moveSection={() => fullpageApi.moveSectionDown()}
                   btnLabel="Preciona para bajar"
                   title="TITULO 1"
+                  pImg="/profile-picture.png"
                 />
               </div>
               <div className="section">
