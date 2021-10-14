@@ -26,7 +26,7 @@ export default function Home() {
                   moveSection={() => fullpageApi.moveSectionDown()}
                   btnLabel="Preciona para bajar"
                   title="TITULO 1"
-                  pImg="/profile-picture.JPG"
+                  pImg="/profile-pict.jpg"
                 />
               </div>
               <div className="section">
