@@ -1,6 +1,6 @@
 .topBar {
   position: absolute;
-  height: 90px;
+  height: 120px;
   width: 100vw;
   z-index: 1;
 }
@@ -9,13 +9,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90vw;
+  width: 70vw;
   margin: 0 auto 0 auto;
 }
-.icon {
-  font-size: 30px;
+.contTopBar h1 {
+  color: #d66d1e;
+  font-size: 50px;
 }
 .icon a {
-  color: #154360;
+  font-size: 50px;
+  color: #d66d1e;
   margin-left: 15px;
+  text-shadow: 0 0 20px 0 #57feff, inset 0 0 20px 0 #57feff;
 }

@@ -6,7 +6,7 @@ function Topbar() {
   return (
     <div className={styles.topBar}>
       <div className={styles.contTopBar}>
-        <h1>ANDRES BONILLA</h1>
+        <h1>Boni Web</h1>
         <div className={styles.icon}>
           <a
             href="https://github.com/BoniNeutron"
