@@ -1,24 +1,24 @@
 .topBar {
   position: absolute;
-  height: 120px;
+  height: 100px;
   width: 100vw;
   z-index: 1;
+  background: #2bc9c8;
 }
 .contTopBar {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70vw;
+  max-width: 1400px;
   margin: 0 auto 0 auto;
 }
 .contTopBar h1 {
-  color: #d66d1e;
+  color: #ffffff;
   font-size: 50px;
 }
 .icon a {
   font-size: 50px;
-  color: #d66d1e;
+  color: #ffffff;
   margin-left: 15px;
-  text-shadow: 0 0 20px 0 #57feff, inset 0 0 20px 0 #57feff;
 }

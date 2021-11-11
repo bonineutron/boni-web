@@ -1,107 +1,128 @@
 .presentation {
   width: 50%;
 }
+.boniText {
+  margin-bottom: 40px;
+}
 .boniText h2 {
-  color: #fff;
-  font-size: 30px;
+  color: #952093;
+  font-size: 50px;
   line-height: 0;
+  word-spacing: 2px;
+  letter-spacing: 2px;
 }
 .boniText h3 {
-  color: #fff;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  color: #d15e8e;
+  font-size: 30px;
+  margin: 0;
 }
 .boniText p {
-  padding-top: 20px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-top: 40px;
   color: #fff;
+  font-size: 25px;
+}
+.boxContact {
+  display: flex;
+  align-items: center;
 }
 .contact {
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   line-height: 0;
   align-items: center;
-  border: 2px solid #57feff;
-  box-shadow: 0 0 20px 0 #57feff, inset 0 0 20px 0 #57feff;
+  border: 2px solid #952093;
+  background: #952093;
   height: 60px;
-  width: 350px;
+  width: 320px;
   border-radius: 10px;
-  margin-top: 50px;
 }
 .contact p {
   margin-right: 20px;
-  font-size: 25px;
-  color: #fff;
+  color: #ffffff;
 }
-.btns {
+.contact a {
+  color: #ffffff;
+  font-size: 40px;
+}
+.whats a {
+  font-size: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-size: 30px;
-}
-.btns a {
-  margin-left: 10px;
-  background: #5c5d5e;
-  color: #fff;
-  padding: 5px 10px;
+  margin-left: 20px;
+  color: #ffffff;
+  height: 60px;
+  width: 80px;
   border-radius: 4px;
+  border: 2px solid #d15e8e;
+  background: #d15e8e;
 }
 /*/////////////////////////////////////*/
 .ProPage {
-  height: 100vh;
-  width: 70vw;
+  padding-top: 100px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 1080px;
+  min-height: 900px;
 }
 .contProfile {
   width: 50%;
 }
 .contProfile img {
-  margin: 0 0 0 auto;
+  margin: 0 0 40px auto;
   display: flex;
-  padding: 4px;
   width: 400px;
-  border-radius: 3px;
-  border: 3px solid #fff;
+}
+.barsExp {
+  width: 400px;
+  margin: 0 0 0 auto;
 }
 .bar {
-  font-size: 40px;
-  width: 400px;
+  font-size: 50px;
+  width: 300px;
   display: flex;
-  justify-content: end;
+  margin: 0 auto;
   align-items: center;
-  color: #fff;
-  margin: 0 0 0 auto;
+  color: #952093;
 }
 .progress {
   margin-left: 15px;
-  height: 15px;
+  height: 18px;
   width: 100%;
-  border: 3px solid #fff;
+  border: 3px solid #952093;
   border-radius: 3px;
 }
 .color1 {
   height: 100%;
   width: 90%;
-  background: #fff;
+  background: #952093;
 }
 .color2 {
   height: 100%;
   width: 40%;
-  background: #fff;
+  background: #952093;
 }
 .color3 {
   height: 100%;
   width: 70%;
-  background: #fff;
+  background: #952093;
 }
 .color4 {
   height: 100%;
   width: 80%;
-  background: #fff;
+  background: #952093;
 }
 .color5 {
   height: 100%;
   width: 90%;
-  background: #fff;
+  background: #952093;
 }

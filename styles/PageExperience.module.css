@@ -1,7 +1,64 @@
 .expPage {
-  height: 100vh;
+  position: relative;
+  min-height: 900px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.project {
+  width: 50%;
+}
+.project h1 {
+  font-size: 40px;
+}
+.project p {
+  font-size: 25px;
+}
+.project h2 {
+  font-size: 35px;
+}
+.project div {
+  width: 30%;
+  height: 5px;
+  background: #d15e8e;
+  border-radius: 10px;
+}
+/*///////////////////*/
+.imgProject {
+  width: 50%;
+  position: relative;
+}
+.imgProject img {
+  width: 650px;
+  height: 360px;
+  display: flex;
+  margin: 0 auto;
+}
+.shadowImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 650px;
+  height: 360px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.shadowImg:hover {
+  background: none;
+}
+.clickHand {
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.clickHand:first-child {
+  color: white;
+  font-size: 60px;
+}
+.clickHand:hover {
+  font-size: 0;
 }

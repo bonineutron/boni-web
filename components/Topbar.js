@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/TopBar.module.css";
-import { FiGithub, FiGitlab, FiInstagram, FiMenu } from "react-icons/fi";
+import { FiGithub, FiGitlab, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 function Topbar() {
   return (
@@ -22,15 +22,13 @@ function Topbar() {
           >
             <FiGitlab />
           </a>
+
           <a
             href="https://www.instagram.com/bonineutron"
             target="_blank"
             rel="noreferrer"
           >
             <FiInstagram />
-          </a>
-          <a>
-            <FiMenu />
           </a>
         </div>
       </div>
