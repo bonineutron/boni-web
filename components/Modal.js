@@ -17,7 +17,7 @@ export default function Modal(props) {
   const modalContent = show ? (
     <div className={styles.overlay}>
       <div className={styles.modal}>
-        <button className={styles.header} onClick={handleClose} className="btn">
+        <button className={styles.header} onClick={handleClose}>
           close
         </button>
         <div className={styles.body}>{children}</div>
