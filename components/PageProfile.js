@@ -12,20 +12,11 @@ import FormContact from "./FormContact";
 function PageProfile(props) {
   const { pImg } = props;
   const [showModal, setShowModal] = useState(false);
-  const aa = (e) => {
-    e.preventDefault();
-    setShowModal(false);
-    console.log("jdjd");
-    setTimeout(() => {
-      console.log("jdjd");
-      setShowModal(false);
-    }, 10);
-  };
   return (
     <div className={styles.ProPage}>
       <div className={styles.presentation}>
         <button onClick={() => setShowModal(true)}>
-          <Modal show={showModal} onClose={() => aa}>
+          <Modal show={showModal} onClose={() => setShowModal(false)}>
             <FormContact />
           </Modal>
         </button>

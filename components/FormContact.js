@@ -12,7 +12,6 @@ function FormContact() {
       method: "post",
       body: JSON.stringify(formData),
     });
-    console.log(formData);
   }
   return (
     <form onSubmit={handleOnSubmit}>
