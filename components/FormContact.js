@@ -4,7 +4,10 @@ import { RiMailSendLine } from "react-icons/ri";
 import { BiCommentCheck } from "react-icons/bi";
 
 function FormContact() {
-  const componentsStep = ["", <BiCommentCheck className={styles.sent} />];
+  const componentsStep = [
+    "",
+    <BiCommentCheck key="0" className={styles.sent} />,
+  ];
   const [componentChange, setComponetChange] = useState(componentsStep[0]);
   const sentCorrectly = () => {
     setComponetChange(componentsStep[1]);
