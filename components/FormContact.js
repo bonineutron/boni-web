@@ -16,8 +16,8 @@ function FormContact() {
     }, 3000);
   };
   async function handleOnSubmit(e) {
-    e.preventDefault();
     const formData = {};
+    e.preventDefault();
     Array.from(e.currentTarget.elements).forEach((field) => {
       if (!field.name) return;
       formData[field.name] = field.value;
@@ -26,9 +26,6 @@ function FormContact() {
       method: "post",
       body: JSON.stringify(formData),
     });
-    setTimeout(() => {
-      handleOnSubmit();
-    }, 1000);
   }
   return (
     <form onSubmit={handleOnSubmit} className={styles.form}>
