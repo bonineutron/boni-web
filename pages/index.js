@@ -33,32 +33,26 @@ export default function Home() {
               </div>
               <div className="section">
                 <PageExperience
-                  moveSection={() => fullpageApi.moveSectionDown()}
-                  btnLabel="Preciona para bajar"
                   title="GLITCH"
                   essence="Obras con un lenguaje visual único y contundente, capaz de deleitar a los aficionados a las artes gráficas: dibujo, ilustración, diseño gráfico, diseño de personajes, etc, y que además estén soportadas por una historia bien contada."
-                  type="Website"
                   pImg="/glitch.png"
+                  link="https://glitchanimation.com/"
                 />
               </div>
               <div className="section">
                 <PageExperience
-                  moveSection={() => fullpageApi.moveSectionDown()}
-                  btnLabel="Preciona para bajar"
                   title="SELEGO"
                   essence="Cine y contenido independiente clásico y contemporáneo con un enfoque especial en la diversidad, la inclusión y la perspectiva de género, así como en el compromiso político y las narrativas experimentales."
-                  type="Website"
                   pImg="/selego.png"
+                  link="https://selego.com/"
                 />
               </div>
               <div className="section">
                 <PageExperience
-                  moveSection={() => fullpageApi.moveSectionUp()}
-                  btnLabel="Preciona para subir"
                   title="MYST"
                   essence="Pequeña tienda de los horrores, busca todas las cosas misteriosas, desde la ficción criminal, pasando por el thriller y el terror, hasta el surrealismo más loco."
-                  type="Website"
                   pImg="/myst.png"
+                  link="https://themyst.com/"
                 />
               </div>
             </ReactFullpage.Wrapper>

@@ -14,28 +14,28 @@ function LinksContact() {
       <div className={styles.contLinksC}>
         <div className={styles.listLinks}>
           <a
-            href="https://github.com/BoniNeutron"
+            href="https://www.instagram.com/bonineutron"
             target="_blank"
             rel="noreferrer"
           >
             <AiOutlineInstagram />
           </a>
           <a
-            href="https://gitlab.com/BoniNeutron"
+            href="https://www.linkedin.com/in/bonineutron/"
             target="_blank"
             rel="noreferrer"
           >
             <AiOutlineLinkedin />
           </a>
           <a
-            href="https://www.instagram.com/bonineutron"
+            href="https://gitlab.com/BoniNeutron"
             target="_blank"
             rel="noreferrer"
           >
             <AiOutlineGitlab />
           </a>
           <a
-            href="https://www.linkedin.com/in/bonineutron/"
+            href="https://github.com/BoniNeutron"
             target="_blank"
             rel="noreferrer"
           >

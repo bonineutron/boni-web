@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import styles from "../styles/FormContact.module.css";
+import { RiMailSendLine } from "react-icons/ri";
+import { BiCommentCheck } from "react-icons/bi";
 
 function FormContact() {
+  const componentsStep = ["", <BiCommentCheck className={styles.sent} />];
+  const [componentChange, setComponetChange] = useState(componentsStep[0]);
+  const sentCorrectly = () => {
+    setComponetChange(componentsStep[1]);
+    setTimeout(() => {
+      setComponetChange(componentsStep[0]);
+    }, 3000);
+  };
   async function handleOnSubmit(e) {
     e.preventDefault();
     const formData = {};
@@ -14,22 +25,20 @@ function FormContact() {
     });
   }
   return (
-    <form onSubmit={handleOnSubmit}>
-      <p>
-        <label htmlFor="name">name</label>
-        <input type="text" name="name" />
-      </p>
-      <p>
-        <label htmlFor="email">email</label>
-        <input type="email" name="email" />
-      </p>
-      <p>
-        <label htmlFor="message">message</label>
-        <input type="message" name="message" />
-      </p>
-      <p>
-        <button>Submit</button>
-      </p>
+    <form onSubmit={handleOnSubmit} className={styles.form}>
+      <input type="text" name="name" placeholder="Tu Nombre:" />
+      <input type="email" name="email" placeholder="Tu Email:" />
+      <input
+        contenteditable="true"
+        type="message"
+        name="message"
+        placeholder="Tu Mensaje:"
+      />
+      <button onClick={sentCorrectly}>
+        Enviar
+        <RiMailSendLine className={styles.iconM} />
+      </button>
+      {componentChange}
     </form>
   );
 }

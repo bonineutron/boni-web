@@ -1,25 +1,43 @@
 import React from "react";
 import styles from "../styles/PageExperience.module.css";
-import { HiCursorClick } from "react-icons/hi";
+import { ImRedo2 } from "react-icons/im";
 
 function PageExperience(props) {
-  const { moveSection, btnLabel, title, essence, type, pImg } = props;
+  const { title, essence, pImg, link } = props;
   return (
     <div className={styles.expPage}>
       <div className={styles.project}>
         <h1>{title}</h1>
-        <div></div>
         <p>{essence}</p>
-        <div></div>
-        <h2>{type}</h2>
+        <div className={styles.line}></div>
+        <h2>Implemente:</h2>
+        <p>
+          El uso de stripe y su pasarela de pago, para dar mas posibilidades de
+          pago a nivel global. El uso de revenucat para analizar las
+          subscripciones en web. Flujo de suscripción para usuarios nuevos.
+          Corrección de bugs. Cambios en Front-end…
+        </p>
+        <div className={styles.logos}>
+          <img src="/revenuecat.svg" alt="revenucat.svg" />
+          <img src="/stripe.svg" alt="stripe.svg" />
+        </div>
       </div>
       <div className={styles.imgProject}>
-        <img height="400px" src={pImg} alt="profile-picture" />
-        <div className={styles.shadowImg}>
-          <div className={styles.clickHand}>
-            <HiCursorClick />
-          </div>
+        <div className={styles.imgCont}>
+          <img height="400px" src={pImg} alt="profile-picture" />
         </div>
+        <div className={styles.labels}>
+          <h2>Cargo:</h2>
+          <p>Full Stack Developer</p>
+        </div>
+        <div className={styles.labels}>
+          <h2>Duración:</h2>
+          <p>3 meses</p>
+        </div>
+        <a href={link} target="_blank" rel="noreferrer">
+          Go Site
+          <ImRedo2 />
+        </a>
       </div>
     </div>
   );

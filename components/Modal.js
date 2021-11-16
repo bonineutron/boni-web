@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import styles from "../styles/Modal.module.css";
+import { FaWindowClose } from "react-icons/fa";
 
 export default function Modal(props) {
   const { onClose, show, children } = props;
@@ -17,9 +18,7 @@ export default function Modal(props) {
   const modalContent = show ? (
     <div className={styles.overlay}>
       <div className={styles.modal}>
-        <button className={styles.header} onClick={handleClose}>
-          close
-        </button>
+        <FaWindowClose className={styles.close} onClick={handleClose} />
         <div className={styles.body}>{children}</div>
       </div>
     </div>

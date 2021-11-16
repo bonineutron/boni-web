@@ -3,9 +3,8 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 600px;
-  width: 1200px;
+  max-width: 1200px;
   border-radius: 20px;
 }
 .contProfile {
