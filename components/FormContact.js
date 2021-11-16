@@ -26,7 +26,9 @@ function FormContact() {
       method: "post",
       body: JSON.stringify(formData),
     });
-    console.log(formData);
+    setTimeout(() => {
+      handleOnSubmit();
+    }, 1000);
   }
   return (
     <form onSubmit={handleOnSubmit} className={styles.form}>
