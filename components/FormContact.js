@@ -17,6 +17,7 @@ function FormContact() {
   };
   async function handleOnSubmit(e) {
     e.preventDefault();
+    console.log("sent");
     const formData = {};
     Array.from(e.currentTarget.elements).forEach((field) => {
       if (!field.name) return;
