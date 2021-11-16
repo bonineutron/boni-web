@@ -28,12 +28,7 @@ function FormContact() {
     <form onSubmit={handleOnSubmit} className={styles.form}>
       <input type="text" name="name" placeholder="Tu Nombre:" />
       <input type="email" name="email" placeholder="Tu Email:" />
-      <input
-        contenteditable="true"
-        type="message"
-        name="message"
-        placeholder="Tu Mensaje:"
-      />
+      <input type="message" name="message" placeholder="Tu Mensaje:" />
       <button onClick={sentCorrectly}>
         Enviar
         <RiMailSendLine className={styles.iconM} />
