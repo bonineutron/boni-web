@@ -14,7 +14,7 @@ function LinksContact() {
       <div className={styles.contLinksC}>
         <div className={styles.listLinks}>
           <a
-            href="https://www.instagram.com/bonineutron"
+            href="https://www.instagram.com/bonineutron/"
             target="_blank"
             rel="noreferrer"
           >

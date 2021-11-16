@@ -6,7 +6,7 @@ import { BiCommentCheck } from "react-icons/bi";
 function FormContact() {
   const componentsStep = [
     "",
-    <BiCommentCheck key="0" className={styles.sent} />,
+    <BiCommentCheck key="1" className={styles.sent} />,
   ];
   const [componentChange, setComponetChange] = useState(componentsStep[0]);
   const sentCorrectly = () => {
