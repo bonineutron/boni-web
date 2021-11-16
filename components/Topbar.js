@@ -1,13 +1,22 @@
 import React from "react";
 import styles from "../styles/TopBar.module.css";
-import { FiGithub, FiGitlab, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Topbar() {
   return (
     <div className={styles.topBar}>
       <div className={styles.contTopBar}>
-        <h1>Boni Web</h1>
-        <div className={styles.icon}>
+        <img src="/logoTopbar.svg" />
+        <a
+          className={styles.icon}
+          href="https://github.com/BoniNeutron/boni-web"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p>CODE</p>
+          <FaGithubSquare />
+        </a>
+        {/*<div className={styles.icon}>
           <a
             href="https://github.com/BoniNeutron"
             target="_blank"
@@ -30,7 +39,7 @@ function Topbar() {
           >
             <FiInstagram />
           </a>
-        </div>
+  </div>*/}
       </div>
     </div>
   );

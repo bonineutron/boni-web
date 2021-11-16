@@ -3,7 +3,6 @@
   height: 100px;
   width: 100vw;
   z-index: 1;
-  background: #2bc9c8;
 }
 .contTopBar {
   height: 100%;
@@ -13,12 +12,21 @@
   max-width: 1400px;
   margin: 0 auto 0 auto;
 }
-.contTopBar h1 {
-  color: #ffffff;
-  font-size: 50px;
+.contTopBar img {
+  height: 50px;
 }
-.icon a {
-  font-size: 50px;
-  color: #ffffff;
-  margin-left: 15px;
+.icon {
+  border: 3px solid black;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 35px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.icon p {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 500;
 }

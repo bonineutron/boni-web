@@ -3,9 +3,11 @@ import { useState } from "react";
 import styles from "../styles/PageProfile.module.css";
 import { DiJavascript1 } from "react-icons/di";
 import { SiJava } from "react-icons/si";
-import { IoLogoPython, IoLogoWhatsapp, IoMdMail } from "react-icons/io";
+import { IoLogoPython, IoLogoWhatsapp } from "react-icons/io";
 import { BiGitBranch } from "react-icons/bi";
+import { BsMailbox2 } from "react-icons/bs";
 import { AiOutlineConsoleSql } from "react-icons/ai";
+
 import Modal from "./Modal";
 import FormContact from "./FormContact";
 
@@ -15,15 +17,11 @@ function PageProfile(props) {
   return (
     <div className={styles.ProPage}>
       <div className={styles.presentation}>
-        <button onClick={() => setShowModal(true)}>
-          <Modal show={showModal} onClose={() => setShowModal(false)}>
-            <FormContact />
-          </Modal>
-        </button>
         <div className={styles.boniText}>
-          <h3>Hola, mi nombre es,</h3>
-          <h2>Andres Bonilla</h2>
-          <h3>Contruyo cosas para la Web</h3>
+          <h2>Hola, mi nombre es,</h2>
+          <h1>Andres Bonilla</h1>
+          <h2>y contruyo cosas para la Web.</h2>
+          <div></div>
           <p>
             Soy desarrollador de software, me especializo en el uso de
             javascript, implementando tecnologías como react y angular. Lo que
@@ -33,13 +31,20 @@ function PageProfile(props) {
           </p>
         </div>
         <div className={styles.boxContact}>
-          <div className={styles.contact}>
-            <p>Contactame</p>
-            <IoMdMail />
-          </div>
+          <button className={styles.contact} onClick={() => setShowModal(true)}>
+            <p>Contáctame</p>
+            <BsMailbox2 className={styles.mail} />
+            <Modal show={showModal} onClose={() => setShowModal(false)}>
+              <FormContact />
+            </Modal>
+          </button>
 
           <div className={styles.whats}>
-            <a href="">
+            <a
+              href="https://api.whatsapp.com/send?phone=573203604288"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IoLogoWhatsapp />
             </a>
           </div>
@@ -49,15 +54,15 @@ function PageProfile(props) {
         <img src={pImg} alt="profile-picture" />
         <div className={styles.barsExp}>
           <div className={styles.bar}>
-            <DiJavascript1 />
-            <div className={styles.progress}>
-              <div className={styles.color1}></div>
-            </div>
-          </div>
-          <div className={styles.bar}>
             <SiJava />
             <div className={styles.progress}>
               <div className={styles.color2}></div>
+            </div>
+          </div>
+          <div className={styles.bar}>
+            <DiJavascript1 />
+            <div className={styles.progress}>
+              <div className={styles.color1}></div>
             </div>
           </div>
           <div className={styles.bar}>

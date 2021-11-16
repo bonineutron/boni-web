@@ -1,0 +1,41 @@
+.linksContact {
+  position: absolute;
+  width: 100vw;
+  z-index: 1;
+  bottom: 0;
+}
+.contLinksC {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+}
+.listLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+.listLinks a {
+  padding: 5px 0;
+}
+.lineAbsolute {
+  margin-top: 10px;
+  height: 100px;
+  width: 2px;
+  background: #000000;
+}
+.mailAbsolute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mailAbsolute a {
+  writing-mode: vertical-rl;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
