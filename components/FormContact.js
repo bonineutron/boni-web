@@ -17,11 +17,11 @@ function FormContact() {
   };
   function handleOnSubmit(e) {
     e.preventDefault();
-    const formData = {};
-    Array.from(e.currentTarget.elements).forEach((field) => {
-      if (!field.name) return;
-      formData[field.name] = field.value;
-    });
+    const formData = {
+      name: e.currentTarget.name.value,
+      email: e.currentTarget.email.value,
+      message: e.currentTarget.message.value,
+    };
     fetch("/api/mail", {
       method: "post",
       body: JSON.stringify(formData),
