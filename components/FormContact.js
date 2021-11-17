@@ -15,14 +15,14 @@ function FormContact() {
       setComponetChange(componentsStep[0]);
     }, 3000);
   };
-  async function handleOnSubmit(e) {
+  function handleOnSubmit(e) {
     e.preventDefault();
     const formData = {};
     Array.from(e.currentTarget.elements).forEach((field) => {
       if (!field.name) return;
       formData[field.name] = field.value;
     });
-    await fetch("/api/mail", {
+    fetch("/api/mail", {
       method: "post",
       body: JSON.stringify(formData),
     });
