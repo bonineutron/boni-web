@@ -32,20 +32,22 @@ function PageProfile(props) {
             </p>
           </div>
           <div className={styles.boxContact}>
-            <button
+            <a
               className={styles.contact}
-              onClick={() => setShowModal(true)}
+              href="mailto:correodboni@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              /*onClick={() => setShowModal(true)}*/
             >
               <p>Contáctame</p>
               <BsMailbox2 className={styles.mail} />
-              <Modal
-                className={styles.modalBlue}
+              {/*<Modal
                 show={showModal}
                 onClose={() => setShowModal(false)}
               >
                 <FormContact />
-              </Modal>
-            </button>
+              </Modal>*/}
+            </a>
             <a
               className={styles.whats}
               href="https://api.whatsapp.com/send?phone=573203604288"
