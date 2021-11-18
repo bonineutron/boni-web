@@ -101,6 +101,9 @@
   border: 1px solid #000000;
 }
 @media (max-width: 1024px) {
+  .expPage {
+    height: 500px;
+  }
   .project {
     width: 50%;
     padding: 0 20px;
