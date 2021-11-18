@@ -7,7 +7,6 @@ import { IoLogoPython, IoLogoWhatsapp } from "react-icons/io";
 import { BiGitBranch } from "react-icons/bi";
 import { BsMailbox2 } from "react-icons/bs";
 import { AiOutlineConsoleSql } from "react-icons/ai";
-
 import Modal from "./Modal";
 import FormContact from "./FormContact";
 
