@@ -211,7 +211,7 @@
     font-size: 18px;
     height: 30px;
     width: 145px;
-    border: 2px solid;
+    border: 2px solid #000000;
   }
   .mail {
     font-size: 22px;
@@ -258,6 +258,6 @@
 }
 @media (max-height: 600px) {
   .ProPage {
-    height: 420px;
+    height: 400px;
   }
 }
