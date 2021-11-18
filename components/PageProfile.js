@@ -38,7 +38,11 @@ function PageProfile(props) {
             >
               <p>Contáctame</p>
               <BsMailbox2 className={styles.mail} />
-              <Modal show={showModal} onClose={() => setShowModal(false)}>
+              <Modal
+                className={styles.modalBlue}
+                show={showModal}
+                onClose={() => setShowModal(false)}
+              >
                 <FormContact />
               </Modal>
             </button>
