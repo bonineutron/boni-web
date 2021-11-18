@@ -11,12 +11,13 @@
   align-items: center;
   max-width: 1400px;
   margin: 0 auto 0 auto;
+  padding: 0 20px;
 }
 .contTopBar img {
   height: 50px;
 }
 .icon {
-  border: 3px solid black;
+  border: 3px solid #000000;
   height: 50px;
   border-radius: 4px;
   font-size: 35px;
@@ -29,4 +30,27 @@
   margin-right: 10px;
   font-size: 25px;
   font-weight: 500;
+}
+.icon:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+@media (max-width: 930px) {
+  .topBar {
+    height: 70px;
+  }
+  .contTopBar img {
+    height: 40px;
+  }
+  .icon {
+    border: 2px solid;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 30px;
+  }
+  .icon p {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
 }

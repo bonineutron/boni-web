@@ -1,3 +1,6 @@
+.contProPage {
+  padding: 0 60px;
+}
 .ProPage {
   background: #ffffff;
   margin: 0 auto;
@@ -107,6 +110,8 @@
 }
 .contact:hover {
   cursor: pointer;
+  background: #000000;
+  color: #ffffff;
 }
 .contact p {
   margin-right: 10px;
@@ -114,7 +119,7 @@
 .mail {
   font-size: 30px;
 }
-.whats a {
+.whats {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -125,4 +130,134 @@
   width: 50px;
   border-radius: 5px;
   background: #000000;
+}
+.whats:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
+}
+@media (max-width: 1024px) {
+  .ProPage {
+    height: 500px;
+  }
+  .contProfile img {
+    width: 200px;
+  }
+  .presentation {
+    padding: 0 20px;
+  }
+  .boniText h1 {
+    font-size: 25px;
+  }
+  .boniText h2 {
+    font-size: 18px;
+  }
+  .boniText p {
+    font-size: 15px;
+  }
+  .contact {
+    font-size: 20px;
+    display: flex;
+    height: 40px;
+    width: 190px;
+  }
+  .mail {
+    font-size: 28px;
+  }
+  .whats {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 720px) {
+  .contProPage {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contProPage {
+    padding: 0 10px;
+  }
+  .ProPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .presentation {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+  }
+  .contProfile {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .boniText h1 {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .boniText h2 {
+    font-size: 14px;
+  }
+  .boniText p {
+    font-size: 12px;
+  }
+  .boniText div {
+    margin: 5px 0;
+  }
+  .contact {
+    font-size: 18px;
+    height: 30px;
+    width: 145px;
+    border: 2px solid;
+  }
+  .mail {
+    font-size: 22px;
+  }
+  .whats {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  .whats:hover {
+    border: 2px solid;
+  }
+  .boxContact {
+    margin-top: 10px;
+  }
+  .barsExp {
+    width: 45%;
+  }
+  .contProfile img {
+    margin: 0 auto;
+    display: flex;
+    width: 140px;
+    border-radius: 10px;
+  }
+  .bar {
+    font-size: 20px;
+    width: 150px;
+  }
+  .progress {
+    margin-left: 10px;
+    height: 10px;
+    width: 90px;
+  }
+  .barsExp {
+    display: block;
+  }
+  .line2 {
+    height: 2px;
+    width: 95%;
+    background: #000000;
+    border-radius: 3px;
+    margin: 10px auto 0 auto;
+  }
+}
+@media (max-height: 600px) {
+  .ProPage {
+    height: 420px;
+  }
 }

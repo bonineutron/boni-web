@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/LinksContact.module.css";
-import { FiGithub, FiGitlab, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { GiClick } from "react-icons/gi";
 import {
   AiOutlineLinkedin,
   AiOutlineGitlab,
@@ -47,6 +47,7 @@ function LinksContact() {
         <div className={styles.mailAbsolute}>
           <a href="mailto:correodboni@gmail.com" rel="noreferrer">
             correodboni@gmail.com
+            <GiClick className={styles.click} />
           </a>
           <div className={styles.lineAbsolute}></div>
         </div>

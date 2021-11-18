@@ -1,3 +1,6 @@
+.contExpPage {
+  padding: 0 60px;
+}
 .expPage {
   background: #ffffff;
   height: 600px;
@@ -76,7 +79,7 @@
   font-weight: 500;
 }
 .labels p {
-  font-weight: 16px;
+  font-size: 16px;
   font-style: italic;
   font-weight: 300;
 }
@@ -91,4 +94,143 @@
   height: 34px;
   justify-content: space-evenly;
   margin: 10px auto 0 auto;
+}
+.imgProject a:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+@media (max-width: 1024px) {
+  .project {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .imgProject {
+    width: 50%;
+  }
+  .project h1 {
+    font-size: 25px;
+  }
+  .project p {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .project h2 {
+    font-size: 18px;
+  }
+  .logos {
+    display: flex;
+    height: 25px;
+    margin-top: 5px;
+  }
+  .logos img {
+    margin-right: 5px;
+  }
+  .imgCont {
+    width: 250px;
+  }
+  .imgCont img {
+    width: 250px;
+  }
+  .labels h2 {
+    font-size: 16px;
+  }
+  .labels p {
+    font-size: 14px;
+  }
+  .imgProject a {
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .contExpPage {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contExpPage {
+    padding: 0 10px;
+  }
+  .expPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project {
+    width: 100%;
+    padding: 0 10px 10px 10px;
+  }
+  .project h1 {
+    font-size: 18px;
+  }
+  .project p {
+    font-size: 12px;
+    padding: 0;
+  }
+  .project h2 {
+    font-size: 14px;
+  }
+  .logos {
+    height: 25px;
+  }
+  .logos img {
+    margin-right: 5px;
+  }
+  .imgProject {
+    width: 100%;
+    display: flex;
+  }
+  .imgCont {
+    width: 150px;
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .imgCont img {
+    width: 150px;
+    height: 90px;
+  }
+  .labels {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .labels h2 {
+    font-size: 14px;
+  }
+  .labels p {
+    font-size: 12px;
+    padding: 0 10px 2px 0;
+  }
+  .imgProject a {
+    font-size: 14px;
+    width: 90px;
+    height: 25px;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  .line {
+    margin: 5px 0;
+    border-radius: 20px;
+    height: 2px;
+    width: 200px;
+    background: #000000;
+  }
+  .line2 {
+    height: 2px;
+    width: 95%;
+    background: #000000;
+    border-radius: 3px;
+    margin: 10px auto 0 auto;
+  }
+}
+@media (max-height: 600px) {
+  .expPage {
+    height: 420px;
+  }
 }
