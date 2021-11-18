@@ -107,6 +107,7 @@
   height: 50px;
   width: 200px;
   border-radius: 5px;
+  text-decoration: none;
 }
 .contact:hover {
   cursor: pointer;
