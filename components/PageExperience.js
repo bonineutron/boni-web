@@ -28,14 +28,14 @@ function PageExperience(props) {
           <div className={styles.imgCont}>
             <img height="400px" src={pImg} alt="profile-picture" />
           </div>
-          <div>
+          <div className={styles.contLabels}>
             <div className={styles.labels}>
               <h2>Cargo:</h2>
               <p>Full Stack Developer</p>
             </div>
             <div className={styles.labels}>
-              <h2>Duración:</h2>
-              <p>3 meses</p>
+              <h2 className={styles.hidden}>Duración:</h2>
+              <p className={styles.hidden}>3 meses</p>
             </div>
             <a href={link} target="_blank" rel="noreferrer">
               Go Site
