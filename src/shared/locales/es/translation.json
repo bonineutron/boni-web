@@ -1,0 +1,24 @@
+{
+    "topbar": {
+        "code": "Codigo",
+        "spanish": "Español",
+        "english": "Ingles"
+    },
+    "presentation": {
+        "hello": "Hola, mi nombre es",
+        "subtitle": "y contruyo cosas para la Web.",
+        "description": "Soy desarrollador de software, me especializo en el uso de javascript, implementando tecnologías como react y angular. Lo que me motivo a ser desarrollador, es el poder dar soluciones tecnológicas a problemas de nuestra sociedad actual y futura, ayudando a millones de personas en sus vidas.",
+        "contactMe": "Contáctame"  
+    },
+    "experience": {
+        "implement": "Implemente:",
+        "essenceGlitch": "Obras con un lenguaje visual único y contundente, capaz de deleitar a los aficionados a las artes gráficas: dibujo, ilustración, diseño gráfico, diseño de personajes, etc, y que además estén soportadas por una historia bien contada.",
+        "essenceSelego": "Cine y contenido independiente clásico y contemporáneo con un enfoque especial en la diversidad, la inclusión y la perspectiva de género, así como en el compromiso político y las narrativas experimentales.",
+        "essenceMyst": "Pequeña tienda de los horrores, busca todas las cosas misteriosas, desde la ficción criminal, pasando por el thriller y el terror, hasta el surrealismo más loco.",
+        "description": "El uso de stripe y su pasarela de pago, para dar mas posibilidades de pago a nivel global. El uso de revenucat para analizar las subscripciones en web. Flujo de suscripción para usuarios nuevos. Corrección de bugs. Cambios en Front-end…",
+        "position": "Cargo:",
+        "duration": "Duración:",
+        "months": "meses",
+        "goSite": "Pagina"
+    }
+}

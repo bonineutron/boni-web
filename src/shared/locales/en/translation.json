@@ -1,0 +1,24 @@
+{
+    "topbar": {
+        "code": "code",
+        "spanish": "Spanish",
+        "english": "English"
+    },
+    "presentation": {
+        "hello": "Hello, I'm",
+        "subtitle": "and I build things for the Web.",
+        "description": "I am a software developer, I specialize in the use of javascript, implementing technologies such as react and angular. What motivated me to be a developer is being able to provide technological solutions to problems of our current and future society, helping millions of people in their lives.",
+        "contactMe": "Contact me"
+    },
+    "experience": {
+        "implement": "Implement:",
+        "essenceGlitch": "Works with a unique and forceful visual language, capable of delighting fans of graphic arts: drawing, illustration, graphic design, character design, etc., and that are also supported by a well-told story.",
+        "essenceSelego": "Classic and contemporary independent film and content with a special focus on diversity, inclusion and gender perspective, as well as political engagement and experimental narratives.",
+        "essenceMyst": "Little Shop of Horrors, look for all things mysterious, from crime fiction, through thrillers and horror, to the craziest surrealism.",
+        "description": "The use of stripe and its payment gateway, to give more payment possibilities globally. The use of revenucat to analyze subscriptions on the web. Subscription flow for new users. Bug fixes. Front-end changes…",
+        "position": "Position:",
+        "duration": "Duration:",
+        "months": "months",
+        "goSite": "Go Site"
+    }
+}

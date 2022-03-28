@@ -1,0 +1,88 @@
+.linksContact {
+   position: absolute;
+   width: 100vw;
+   bottom: 0;
+}
+.contLinksC {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1400px;
+   margin: 0 auto 0 auto;
+   padding: 0 10px;
+}
+.listLinks {
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+   font-size: 30px;
+}
+.listLinks a {
+   margin: 5px 0;
+   height: 35px;
+   width: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.listLinks a:hover {
+   background: #ffffff;
+   border-radius: 3px;
+}
+.lineAbsolute {
+   margin-top: 10px;
+   height: 100px;
+   width: 2px;
+   background: #000000;
+}
+.mailAbsolute {
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+}
+.mailAbsolute a {
+   writing-mode: vertical-rl;
+   letter-spacing: 2px;
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   padding: 0 8px;
+}
+.mailAbsolute a:hover {
+   color: #ffffff;
+}
+.click {
+   display: none;
+}
+@media (max-width: 930px) {
+   .contLinksC {
+      flex-direction: column-reverse;
+      margin: 0 auto 0 auto;
+   }
+   .listLinks {
+      flex-direction: row;
+      margin: 0 auto;
+      padding: 5px 0;
+   }
+   .listLinks a {
+      margin: 0 5px;
+   }
+   .lineAbsolute {
+      display: none;
+   }
+   .mailAbsolute a {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      writing-mode: horizontal-tb;
+   }
+   .click {
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 5px;
+   }
+}
